@@ -1,0 +1,45 @@
+.ba-section--intro {
+  background: #fff url(../img/intro-bcg.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.ba-intro-inner {
+  padding: 215px 0 290px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 370px;
+}
+
+.ba-intro-subtitle {
+  font-size: 17px;
+  margin: 0 0 35px;
+}
+
+.ba-page-title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .ba-page-title {
+    font-size: 36px;
+  }
+}
+
+.ba-scroll {
+  position: absolute;
+  bottom: 70px;
+  width: 24px;
+  height: 40px;
+  background: url(../img/scroll.png);
+  left: 50%;
+  transform: translateX(-50%);
+  &:hover {
+    opacity: 0.5;
+  }
+}

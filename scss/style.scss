@@ -1,0 +1,87 @@
+$medium: 640px;
+$large: 1024px;
+$primary-color: #ff6033;
+$text-color: #262626;
+$body-font-family: "Raleway", sans-serif;
+
+@import "normalize";
+@import "layout";
+@import "elements";
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,900&display=swap");
+
+body {
+  font: 300 17px/1.5 "Raleway", sans-serif;
+  color: $text-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: rgba($primary-color, 0.7);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 30px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 22px;
+}
+
+p {
+  margin: 0 0 25px;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+}
+
+.ba-section {
+  padding: 40px 0;
+
+  @media screen and (min-width: $medium) {
+    padding: 100px 0;
+  }
+}
+
+.ba-section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 5px;
+
+  @media screen and (min-width: $medium) {
+    font-size: 90px;
+  }
+}
+
+@import "header";
+@import "section-intro";
+@import "section-about";
+@import "section-services";

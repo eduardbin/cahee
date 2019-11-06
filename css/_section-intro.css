@@ -1,0 +1,36 @@
+.ba-intro {
+  background: #fff url(../img/intro-bcg.jpg);
+  background-size: cover; }
+
+.ba-intro-inner {
+  padding: 100px 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  max-width: 370px;
+  font-size: 30px; }
+
+.ba-intro-subtitle {
+  font-size: 30px;
+  margin: 0 0 60px; }
+
+.ba-button {
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 9px 22px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 8px;
+  letter-spacing: 0.4px; }
+
+/*# sourceMappingURL=_section-intro.css.map */

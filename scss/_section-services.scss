@@ -1,0 +1,67 @@
+.ba-section--services {
+  background: #70bfff;
+  @media screen and (min-width: $large) {
+    padding: 180px 0 150px;
+  }
+}
+
+.ba-services-title {
+  background: url(../img/tomatoes.png) no-repeat 50%;
+  padding: 50px 0;
+  background-size: contain;
+  color: #fff;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $large) {
+    min-width: 462px;
+    min-height: 527px;
+    display: flex;
+    align-items: center;
+    margin-top: -77px;
+    background-position: right center;
+    justify-content: flex-end;
+  }
+}
+
+.ba-services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @media screen and (min-width: $medium) {
+    padding: 0 70px;
+  }
+
+  @media screen and (min-width: $large) {
+    padding: 0 70px 0 100xp;
+  }
+}
+
+.ba-services-item {
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+
+  & + & {
+    margin-top: 20px;
+  }
+
+  &__title {
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+  }
+
+  &__icon {
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+}

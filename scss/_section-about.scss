@@ -1,0 +1,30 @@
+.ba-section--about {
+  color: #ffffff;
+  background-color: #00b2b2;
+  @media screen and (min-width: $large) {
+    padding: 75px 0 15px;
+  }
+}
+
+.ba-section-title--left {
+  text-align: left;
+}
+
+.ba-about-col {
+  @media screen and (min-width: $large) {
+    order: 1;
+  }
+}
+
+.ba-about-content {
+  @media screen and (min-width: $large) {
+    padding: 90px 0 0 70px;
+  }
+}
+
+.ba-about-img {
+  @media screen and (min-width: $large) {
+    margin: -40px 0 0 -55px;
+    max-width: initial;
+  }
+}

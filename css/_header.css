@@ -1,0 +1,36 @@
+.ba-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(transparent));
+  background-image: -webkit-linear-gradient(top, white, transparent);
+  background-image: -o-linear-gradient(top, white, transparent);
+  background-image: linear-gradient(to bottom, white, transparent); }
+
+.ba-header-bar {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.ba-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+  margin-top: -3px; }
+
+/*# sourceMappingURL=_header.css.map */

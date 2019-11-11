@@ -1,0 +1,33 @@
+.ba-section--gallery {
+  background-color: #ffe92f;
+
+  @media screen and (min-width: $large) {
+    padding-bottom: 120px;
+  }
+}
+
+.ba-gallery {
+  margin-bottom: 20px;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    &:hover {
+      box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.ba-button {
+  &--gallery {
+    text-transform: uppercase;
+    background-color: #5585a2;
+    min-width: 200px;
+
+    &:hover {
+      background: darken(#5585a2, 15%);
+    }
+  }
+}

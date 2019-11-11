@@ -10,6 +10,10 @@ $body-font-family: "Raleway", sans-serif;
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,700,900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 300 17px/1.5 "Raleway", sans-serif;
   color: $text-color;
@@ -66,7 +70,7 @@ p {
   padding: 40px 0;
 
   @media screen and (min-width: $medium) {
-    padding: 100px 0;
+    padding: 85px 0;
   }
 }
 
@@ -78,10 +82,22 @@ p {
 
   @media screen and (min-width: $medium) {
     font-size: 90px;
+    margin-bottom: 20px;
   }
+}
+
+.ba-section-content {
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto 45px;
 }
 
 @import "header";
 @import "section-intro";
 @import "section-about";
 @import "section-services";
+@import "section-gallery";
+@import "section-subscribe";
+@import "section-blog";
+@import "section-contact";
+@import "footer";

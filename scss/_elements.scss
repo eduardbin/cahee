@@ -25,6 +25,17 @@ button,
     color: #fff;
   }
 }
+
+.ba-button {
+  &--subscribe {
+    background-color: #96b92c;
+    min-width: 170px;
+    &:hover {
+      background-color: darken(#96b92c, 15%);
+    }
+  }
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -34,9 +45,26 @@ textarea,
 select {
   transition: color 0.3s ease-in, border-color 0.3s ease-in,
     background-color 0.3s ease-in, opacity 0.3s ease-in;
+  height: 55px;
+  padding: 10px 15px;
+  border: 1px solid $text-color;
+  background: #fff;
+  border-radius: 0;
+  font-size: 15px;
+  color: $text-color;
+  &::placeholder {
+    color: rgba($text-color, 0.5);
+  }
   &:focus {
+    outline: none;
+    border-color: #70bfff;
   }
 }
 
 textarea {
+  height: auto;
+}
+
+*:hover {
+  transition: box-shadow 0.3s ease-in;
 }

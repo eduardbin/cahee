@@ -9,10 +9,6 @@
 .ba-gallery {
   margin-bottom: 20px;
 
-  div {
-    cursor: pointer;
-  }
-
   img {
     width: 100%;
     height: auto;
@@ -21,6 +17,7 @@
 
     &:hover {
       box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
     }
   }
 }

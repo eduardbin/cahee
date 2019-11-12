@@ -1033,7 +1033,8 @@ p {
     margin-bottom: 30px; }
     .ba-gallery img:hover {
       -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
-      box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3); }
+      box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+      cursor: pointer; }
 
 .ba-button--gallery {
   text-transform: uppercase;
@@ -1093,7 +1094,8 @@ p {
       margin-bottom: 0; } }
   .ba-blog-article:hover {
     -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer; }
   .ba-blog-article time {
     position: absolute;
     top: 15px;

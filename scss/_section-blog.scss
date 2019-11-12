@@ -18,6 +18,7 @@
 .ba-blog-article {
   position: relative;
   margin-bottom: 15px;
+  cursor: pointer;
 
   @media screen and (min-width: $medium) {
     margin-bottom: 0;
